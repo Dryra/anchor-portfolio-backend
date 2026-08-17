@@ -1,6 +1,6 @@
 # Anchor Backend — Portfolio Edition
 
-Anchor is a commercial iOS application centered on brief daily reflections. This
+Anchor is a iOS application centered on brief daily reflections. This
 repository is a deliberately reduced, independently runnable portfolio edition of
 the privately maintained backend. It demonstrates representative engineering
 patterns without publishing production infrastructure, administration tooling,
