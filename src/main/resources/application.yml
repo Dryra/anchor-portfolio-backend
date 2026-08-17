@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: anchor-backend
+
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/anchor_portfolio}
+    username: ${DATABASE_USERNAME:anchor_portfolio}
+    password: ${DATABASE_PASSWORD:anchor_portfolio_local}
+    driver-class-name: org.postgresql.Driver
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    validate-on-migrate: true
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+
+server:
+  port: ${SERVER_PORT:8080}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: never

@@ -1,0 +1,15 @@
+target
+.idea
+.vscode
+.git
+.DS_Store
+*.iml
+.env
+.git
+.idea
+.env*
+!.env.example
+target
+*.log
+*.pem
+*.key

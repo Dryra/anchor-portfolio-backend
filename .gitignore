@@ -1,0 +1,83 @@
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+# macOS
+.DS_Store
+
+
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Spring Boot
+application-local.yml
+application-dev.yml
+
+# Docker
+docker-compose.override.yml
+
+# OS
+Thumbs.db
+
+# Temporary
+*.tmp
+*.swp
+
+# Generated
+out/
+bin/
+
+# Coverage
+coverage/
+jacoco.exec
+
+# Misc
+*.class
+
+# Local databases and test artifacts
+*.db
+*.mv.db
+*.trace.db
+
+# Keys and certificates (never commit)
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
